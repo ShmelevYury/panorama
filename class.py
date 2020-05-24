@@ -172,4 +172,4 @@ class Panorama:
 #%%
 if __name__ == '__main__':
     panorama = Panorama("vid.mp4", step=1)
-    panorama.make(show_process=False, show_result=True, use_custom=True, use_mod=False)
+    panorama.make(show_process=False, show_result=True, use_custom=True, use_mod=True)
